@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_17" class="java.beans.XMLDecoder"> 
+ <object class="javax.swing.tree.DefaultTreeModel"> 
+  <object class="javax.swing.tree.DefaultMutableTreeNode"> 
+   <void property="userObject"> 
+    <string>Code Keeper</string> 
+   </void> 
+   <void method="add"> 
+    <object class="javax.swing.tree.DefaultMutableTreeNode"> 
+     <void property="userObject"> 
+      <object class="codekeeper.SnippetCategory"> 
+       <void property="snippetCategoryName"> 
+        <string>CSharp</string> 
+       </void> 
+       <void property="snippetCategoryType"> 
+        <object id="Constants$SnippetTypes0" class="codekeeper.Constants$SnippetTypes" method="valueOf"> 
+         <string>CodeCSharp</string> 
+        </object> 
+       </void> 
+      </object> 
+     </void> 
+     <void method="add"> 
+      <object class="javax.swing.tree.DefaultMutableTreeNode"> 
+       <void property="userObject"> 
+        <object class="codekeeper.SnippetObject"> 
+         <void property="data"> 
+          <string>private void Test()
+{
+	string s = new string()
+}</string> 
+         </void> 
+         <void property="dateCreated"> 
+          <object class="java.util.Date"> 
+           <long>1270744313332</long> 
+          </object> 
+         </void> 
+         <void property="parentFolder"> 
+          <string></string> 
+         </void> 
+         <void property="rootFolder"> 
+          <string></string> 
+         </void> 
+         <void property="snippetName"> 
+          <string>CSharp Test</string> 
+         </void> 
+         <void property="snippetType"> 
+          <object idref="Constants$SnippetTypes0"/> 
+         </void> 
+        </object> 
+       </void> 
+      </object> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="javax.swing.tree.DefaultMutableTreeNode"> 
+     <void property="userObject"> 
+      <object class="codekeeper.SnippetCategory"> 
+       <void property="snippetCategoryName"> 
+        <string>Java</string> 
+       </void> 
+       <void property="snippetCategoryType"> 
+        <object class="codekeeper.Constants$SnippetTypes" method="valueOf"> 
+         <string>CodeJava</string> 
+        </object> 
+       </void> 
+      </object> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="javax.swing.tree.DefaultMutableTreeNode"> 
+     <void property="userObject"> 
+      <object class="codekeeper.SnippetCategory"> 
+       <void property="snippetCategoryName"> 
+        <string>Delphi</string> 
+       </void> 
+       <void property="snippetCategoryType"> 
+        <object class="codekeeper.Constants$SnippetTypes" method="valueOf"> 
+         <string>CodeDelphi</string> 
+        </object> 
+       </void> 
+      </object> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="javax.swing.tree.DefaultMutableTreeNode"> 
+     <void property="userObject"> 
+      <object class="codekeeper.SnippetCategory"> 
+       <void property="snippetCategoryName"> 
+        <string>ASP.net</string> 
+       </void> 
+       <void property="snippetCategoryType"> 
+        <object id="Constants$SnippetTypes1" class="codekeeper.Constants$SnippetTypes" method="valueOf"> 
+         <string>CodeASPdotNet</string> 
+        </object> 
+       </void> 
+      </object> 
+     </void> 
+     <void method="add"> 
+      <object class="javax.swing.tree.DefaultMutableTreeNode"> 
+       <void property="userObject"> 
+        <object class="codekeeper.SnippetObject"> 
+         <void property="dateCreated"> 
+          <object class="java.util.Date"> 
+           <long>1272401149821</long> 
+          </object> 
+         </void> 
+         <void property="snippetName"> 
+          <string>Testss</string> 
+         </void> 
+         <void property="snippetType"> 
+          <object idref="Constants$SnippetTypes1"/> 
+         </void> 
+        </object> 
+       </void> 
+      </object> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="javax.swing.tree.DefaultMutableTreeNode"> 
+     <void property="userObject"> 
+      <object class="codekeeper.SnippetCategory"> 
+       <void property="snippetCategoryName"> 
+        <string>Visual Basic</string> 
+       </void> 
+       <void property="snippetCategoryType"> 
+        <object class="codekeeper.Constants$SnippetTypes" method="valueOf"> 
+         <string>CodeVisualBasic</string> 
+        </object> 
+       </void> 
+      </object> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="javax.swing.tree.DefaultMutableTreeNode"> 
+     <void property="userObject"> 
+      <object class="codekeeper.SnippetCategory"> 
+       <void property="snippetCategoryName"> 
+        <string>Pascal</string> 
+       </void> 
+       <void property="snippetCategoryType"> 
+        <object class="codekeeper.Constants$SnippetTypes" method="valueOf"> 
+         <string>CodePascal</string> 
+        </object> 
+       </void> 
+      </object> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="javax.swing.tree.DefaultMutableTreeNode"> 
+     <void property="userObject"> 
+      <object class="codekeeper.SnippetCategory"> 
+       <void property="snippetCategoryName"> 
+        <string>Microsoft SQL Server</string> 
+       </void> 
+       <void property="snippetCategoryType"> 
+        <object class="codekeeper.Constants$SnippetTypes" method="valueOf"> 
+         <string>SQLMicrosoftSQLServer</string> 
+        </object> 
+       </void> 
+      </object> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="javax.swing.tree.DefaultMutableTreeNode"> 
+     <void property="userObject"> 
+      <object class="codekeeper.SnippetCategory"> 
+       <void property="snippetCategoryName"> 
+        <string>MySQL</string> 
+       </void> 
+       <void property="snippetCategoryType"> 
+        <object class="codekeeper.Constants$SnippetTypes" method="valueOf"> 
+         <string>SQLMySQL</string> 
+        </object> 
+       </void> 
+      </object> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="javax.swing.tree.DefaultMutableTreeNode"> 
+     <void property="userObject"> 
+      <object class="codekeeper.SnippetCategory"> 
+       <void property="snippetCategoryName"> 
+        <string>SQL</string> 
+       </void> 
+       <void property="snippetCategoryType"> 
+        <object id="Constants$SnippetTypes2" class="codekeeper.Constants$SnippetTypes" method="valueOf"> 
+         <string>SQLMisc</string> 
+        </object> 
+       </void> 
+      </object> 
+     </void> 
+     <void method="add"> 
+      <object class="javax.swing.tree.DefaultMutableTreeNode"> 
+       <void property="userObject"> 
+        <object class="codekeeper.SnippetObject"> 
+         <void property="data"> 
+          <string>SELECT * FROM test_table WHERE test = &apos;17&apos;</string> 
+         </void> 
+         <void property="dateCreated"> 
+          <object class="java.util.Date"> 
+           <long>1270744313332</long> 
+          </object> 
+         </void> 
+         <void property="parentFolder"> 
+          <string></string> 
+         </void> 
+         <void property="rootFolder"> 
+          <string></string> 
+         </void> 
+         <void property="snippetName"> 
+          <string>SQL Test Item</string> 
+         </void> 
+         <void property="snippetType"> 
+          <object idref="Constants$SnippetTypes2"/> 
+         </void> 
+        </object> 
+       </void> 
+      </object> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="javax.swing.tree.DefaultMutableTreeNode"> 
+     <void property="userObject"> 
+      <object class="codekeeper.SnippetCategory"> 
+       <void property="snippetCategoryName"> 
+        <string>Oracle</string> 
+       </void> 
+       <void property="snippetCategoryType"> 
+        <object class="codekeeper.Constants$SnippetTypes" method="valueOf"> 
+         <string>SQLOracle</string> 
+        </object> 
+       </void> 
+      </object> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="javax.swing.tree.DefaultMutableTreeNode"> 
+     <void property="userObject"> 
+      <object class="codekeeper.SnippetCategory"> 
+       <void property="snippetCategoryName"> 
+        <string>Misc</string> 
+       </void> 
+       <void property="snippetCategoryType"> 
+        <object id="Constants$SnippetTypes3" class="codekeeper.Constants$SnippetTypes" method="valueOf"> 
+         <string>TextMisc</string> 
+        </object> 
+       </void> 
+      </object> 
+     </void> 
+     <void method="add"> 
+      <object class="javax.swing.tree.DefaultMutableTreeNode"> 
+       <void property="userObject"> 
+        <object class="codekeeper.SnippetObject"> 
+         <void property="data"> 
+          <string>Data data data</string> 
+         </void> 
+         <void property="dateCreated"> 
+          <object class="java.util.Date"> 
+           <long>1270744313332</long> 
+          </object> 
+         </void> 
+         <void property="parentFolder"> 
+          <string></string> 
+         </void> 
+         <void property="rootFolder"> 
+          <string></string> 
+         </void> 
+         <void property="snippetName"> 
+          <string>Text Test Item</string> 
+         </void> 
+         <void property="snippetType"> 
+          <object idref="Constants$SnippetTypes3"/> 
+         </void> 
+        </object> 
+       </void> 
+      </object> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="javax.swing.tree.DefaultMutableTreeNode"> 
+     <void property="userObject"> 
+      <object class="codekeeper.SnippetCategory"> 
+       <void property="snippetCategoryName"> 
+        <string>CSS</string> 
+       </void> 
+       <void property="snippetCategoryType"> 
+        <object class="codekeeper.Constants$SnippetTypes" method="valueOf"> 
+         <string>CodeCSS</string> 
+        </object> 
+       </void> 
+      </object> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="javax.swing.tree.DefaultMutableTreeNode"> 
+     <void property="userObject"> 
+      <object class="codekeeper.SnippetCategory"> 
+       <void property="snippetCategoryName"> 
+        <string>HTML</string> 
+       </void> 
+       <void property="snippetCategoryType"> 
+        <object id="Constants$SnippetTypes4" class="codekeeper.Constants$SnippetTypes" method="valueOf"> 
+         <string>CodeHTML</string> 
+        </object> 
+       </void> 
+      </object> 
+     </void> 
+     <void method="add"> 
+      <object class="javax.swing.tree.DefaultMutableTreeNode"> 
+       <void property="userObject"> 
+        <object class="codekeeper.SnippetObject"> 
+         <void property="data"> 
+          <string>body head href etc.</string> 
+         </void> 
+         <void property="dateCreated"> 
+          <object class="java.util.Date"> 
+           <long>1270744313332</long> 
+          </object> 
+         </void> 
+         <void property="parentFolder"> 
+          <string></string> 
+         </void> 
+         <void property="rootFolder"> 
+          <string></string> 
+         </void> 
+         <void property="snippetName"> 
+          <string>HTML Test Item</string> 
+         </void> 
+         <void property="snippetType"> 
+          <object idref="Constants$SnippetTypes4"/> 
+         </void> 
+        </object> 
+       </void> 
+      </object> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="javax.swing.tree.DefaultMutableTreeNode"> 
+     <void property="userObject"> 
+      <object class="codekeeper.SnippetCategory"> 
+       <void property="snippetCategoryName"> 
+        <string>Misc</string> 
+       </void> 
+       <void property="snippetCategoryType"> 
+        <object class="codekeeper.Constants$SnippetTypes" method="valueOf"> 
+         <string>CodeXML</string> 
+        </object> 
+       </void> 
+      </object> 
+     </void> 
+    </object> 
+   </void> 
+  </object> 
+ </object> 
+</java> 
