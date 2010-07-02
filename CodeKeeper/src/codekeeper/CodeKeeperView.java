@@ -213,6 +213,7 @@ public class CodeKeeperView extends FrameView implements TreeSelectionListener {
         // Get our preferences
         prefs = Preferences.userNodeForPackage(this.getClass());
         mainPanel.setSize(prefs.getInt("WIDTH", 640), prefs.getInt("HEIGHT", 480));
+        mainPanel.validate();
         
         // Populate the tree
         PopulateTree();
@@ -355,7 +356,7 @@ public class CodeKeeperView extends FrameView implements TreeSelectionListener {
             richTextEditor.richTextPane.setText(code);
         } else
         {
-            splitPaneMain.setRightComponent(codeEditor);
+            splitPaneMain.setRightComponent(codePane);
             codeEditor.setText(code);
             codeEditor.requestFocus();
         }
@@ -490,7 +491,8 @@ public class CodeKeeperView extends FrameView implements TreeSelectionListener {
         JTextField txtBox = new JTextField(snippet.SnippetName);
         txtBox.setHorizontalAlignment((int) JTextField.CENTER_ALIGNMENT);
         txtBox.setSize(150, 20);
-
+        txtBox.validate();
+        
         panel.add(lblCats, BorderLayout.PAGE_START);
         panel.add(cboCategories, BorderLayout.CENTER);
         panel.add(txtBox, BorderLayout.SOUTH);
