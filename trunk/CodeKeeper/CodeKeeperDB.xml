@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_20" class="java.beans.XMLDecoder"> 
+ <object class="javax.swing.tree.DefaultTreeModel"> 
+  <object class="javax.swing.tree.DefaultMutableTreeNode"> 
+   <void property="userObject"> 
+    <string>Code Keeper</string> 
+   </void> 
+   <void method="add"> 
+    <object class="javax.swing.tree.DefaultMutableTreeNode"> 
+     <void property="allowsChildren"> 
+      <boolean>false</boolean> 
+     </void> 
+     <void property="userObject"> 
+      <object class="codekeeper.SnippetObject"> 
+       <void property="data"> 
+        <string>javax.swing.text.DefaultStyledDocument@408fbecf</string> 
+       </void> 
+       <void property="snippetName"> 
+        <string>testRtf</string> 
+       </void> 
+       <void property="snippetType"> 
+        <object class="codekeeper.Constants$SnippetTypes" method="valueOf"> 
+         <string>TextMisc</string> 
+        </object> 
+       </void> 
+      </object> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="javax.swing.tree.DefaultMutableTreeNode"> 
+     <void property="allowsChildren"> 
+      <boolean>false</boolean> 
+     </void> 
+     <void property="userObject"> 
+      <object class="codekeeper.SnippetObject"> 
+       <void property="data"> 
+        <string>function ()
+</string> 
+       </void> 
+       <void property="snippetName"> 
+        <string>tesda</string> 
+       </void> 
+       <void property="snippetType"> 
+        <object class="codekeeper.Constants$SnippetTypes" method="valueOf"> 
+         <string>CodeDelphi</string> 
+        </object> 
+       </void> 
+      </object> 
+     </void> 
+    </object> 
+   </void> 
+  </object> 
+ </object> 
+</java> 
