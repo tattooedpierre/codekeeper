@@ -615,7 +615,7 @@ public class CodeKeeperView extends FrameView implements TreeSelectionListener {
     {
         tree.updateUI();
         String saveMsg = Constants.SaveObjectToXml(tree.getModel(), Constants.DatabaseFilename);
-        JOptionPane.showMessageDialog(this.mainPanel, saveMsg);
+        //JOptionPane.showMessageDialog(this.mainPanel, saveMsg);
     }
 
     @Action
