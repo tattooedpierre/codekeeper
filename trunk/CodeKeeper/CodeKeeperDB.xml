@@ -13,6 +13,28 @@
      <void property="userObject"> 
       <object class="codekeeper.SnippetObject"> 
        <void property="data"> 
+        <string></string> 
+       </void> 
+       <void property="snippetName"> 
+        <string>Test C#</string> 
+       </void> 
+       <void property="snippetType"> 
+        <object class="codekeeper.Constants$SnippetTypes" method="valueOf"> 
+         <string>CodeCSharp</string> 
+        </object> 
+       </void> 
+      </object> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="javax.swing.tree.DefaultMutableTreeNode"> 
+     <void property="allowsChildren"> 
+      <boolean>false</boolean> 
+     </void> 
+     <void property="userObject"> 
+      <object class="codekeeper.SnippetObject"> 
+       <void property="data"> 
         <string>javax.swing.text.DefaultStyledDocument@408fbecf</string> 
        </void> 
        <void property="snippetName"> 
