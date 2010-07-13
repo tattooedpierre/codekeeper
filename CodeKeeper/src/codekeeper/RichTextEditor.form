@@ -77,39 +77,48 @@
             <Property name="name" type="java.lang.String" value="jSeparator1" noResource="true"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton4">
+        <Component class="javax.swing.JButton" name="btnNormal">
           <Properties>
-            <Property name="text" type="java.lang.String" resourceKey="jButton4.text"/>
+            <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+              <action class="codekeeper.RichTextEditor" id="SetNormal" methodName="SetNormal"/>
+            </Property>
+            <Property name="text" type="java.lang.String" resourceKey="btnNormal.text"/>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="btnGrpBulletStyle"/>
             </Property>
             <Property name="focusable" type="boolean" value="false"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
-            <Property name="name" type="java.lang.String" value="jButton4" noResource="true"/>
+            <Property name="name" type="java.lang.String" value="btnNormal" noResource="true"/>
             <Property name="verticalTextPosition" type="int" value="3"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton5">
+        <Component class="javax.swing.JButton" name="btnBullets">
           <Properties>
-            <Property name="text" type="java.lang.String" resourceKey="jButton5.text"/>
+            <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+              <action class="codekeeper.RichTextEditor" id="SetBullet" methodName="SetBullet"/>
+            </Property>
+            <Property name="text" type="java.lang.String" resourceKey="btnBullets.text"/>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="btnGrpBulletStyle"/>
             </Property>
             <Property name="focusable" type="boolean" value="false"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
-            <Property name="name" type="java.lang.String" value="jButton5" noResource="true"/>
+            <Property name="name" type="java.lang.String" value="btnBullets" noResource="true"/>
             <Property name="verticalTextPosition" type="int" value="3"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton6">
+        <Component class="javax.swing.JButton" name="btnNumbered">
           <Properties>
-            <Property name="text" type="java.lang.String" resourceKey="jButton6.text"/>
+            <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+              <action class="codekeeper.RichTextEditor" id="SetNumbered" methodName="SetNumbered"/>
+            </Property>
+            <Property name="text" type="java.lang.String" resourceKey="btnNumbered.text"/>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="btnGrpBulletStyle"/>
             </Property>
             <Property name="focusable" type="boolean" value="false"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
-            <Property name="name" type="java.lang.String" value="jButton6" noResource="true"/>
+            <Property name="name" type="java.lang.String" value="btnNumbered" noResource="true"/>
             <Property name="verticalTextPosition" type="int" value="3"/>
           </Properties>
         </Component>
