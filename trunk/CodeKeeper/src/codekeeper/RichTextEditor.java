@@ -53,7 +53,6 @@ public class RichTextEditor extends javax.swing.JPanel {
                     } else if (btnGrpBulletStyle.getSelection().equals(btnNumbered.getModel())){
                         SetNumbered();
                     }
-
                 }
             }
 
@@ -123,7 +122,7 @@ public class RichTextEditor extends javax.swing.JPanel {
     @Action
     public void SetBullet() {
         richTextPane.setText(new StringBuffer(richTextPane.getText())
-                .insert(richTextPane.getCaretPosition(), "\t\u2022 ").toString());
+                .insert(richTextPane.getSelectionEnd(), "     \u2022 ").toString());
         btnGrpBulletStyle.setSelected(btnBullets.getModel(), Boolean.TRUE);
         orderedListCount = 1;
     }
@@ -131,7 +130,7 @@ public class RichTextEditor extends javax.swing.JPanel {
     @Action
     public void SetNumbered() {
         richTextPane.setText(new StringBuffer(richTextPane.getText())
-                .insert(richTextPane.getCaretPosition(), "\t" + orderedListCount + ". ").toString());
+                .insert(richTextPane.getSelectionEnd(), "     " + orderedListCount + ". ").toString());
         btnGrpBulletStyle.setSelected(btnNumbered.getModel(), Boolean.TRUE);
         orderedListCount++;
     }
