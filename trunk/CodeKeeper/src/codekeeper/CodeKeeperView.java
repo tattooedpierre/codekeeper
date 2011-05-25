@@ -48,6 +48,7 @@ public class CodeKeeperView extends FrameView implements TreeSelectionListener {
     private int busyIconIndex = 0;
     private JDialog aboutBox;
     private JTree tree;
+    private JScrollPane treeView;
     private RSyntaxTextArea codeEditor;
     private RTextScrollPane codePane;
     private RichTextEditor richTextEditor;
@@ -216,7 +217,7 @@ public class CodeKeeperView extends FrameView implements TreeSelectionListener {
         mainPanel.validate();
         
         // Populate the tree
-        PopulateTree();
+        treeView = PopulateTree();
 
         // Setup the code editor pane
         codeEditor = new RSyntaxTextArea();
@@ -225,6 +226,9 @@ public class CodeKeeperView extends FrameView implements TreeSelectionListener {
 
         // Set the code highlighter as the current editor
         splitPaneMain.setRightComponent(codePane);
+        splitPaneMain.setLeftComponent(treeView);
+
+        treeView.setMinimumSize(new Dimension(175, splitPaneMain.getLeftComponent().getHeight()));
 
         // Set the default fonts for Mac and Windows.. because Windows might
         // only have crappy Courier..
@@ -246,7 +250,7 @@ public class CodeKeeperView extends FrameView implements TreeSelectionListener {
         Constants.SaveObjectToXml(tree.getModel(), Constants.DatabaseFilename);
     }
 
-    private void PopulateTree()
+    private JScrollPane PopulateTree()
     {
         DefaultMutableTreeNode top = new DefaultMutableTreeNode("Code Keeper");
         CreateTreeNodes(top);
@@ -265,8 +269,7 @@ public class CodeKeeperView extends FrameView implements TreeSelectionListener {
 
         }
 
-        JScrollPane treeView = new JScrollPane(tree);
-        splitPaneMain.setLeftComponent(treeView);
+        return new JScrollPane(tree);
     }
 
     private void AddNodeToTree(SnippetObject snippet)

@@ -29,7 +29,6 @@ public class Constants {
 
     public static final String DefaultDelimeter = "#";
     public static final String DatabaseFilename = "CodeKeeperDB.xml";
-    public static final String DefaultUrl = "http://www.theinfernals.org.uk";
     public static final String Newline = System.getProperty("line.separator");
 
     public enum SnippetTypes {
@@ -49,7 +48,7 @@ public class Constants {
     
     public static ArrayList<SnippetCategory> DefaultCategoryList = new ArrayList<SnippetCategory>() {
         {
-            add(new SnippetCategory("CSharp", Constants.SnippetTypes.CodeCSharp));
+            add(new SnippetCategory("C#", Constants.SnippetTypes.CodeCSharp));
             add(new SnippetCategory("Java", Constants.SnippetTypes.CodeJava));
             add(new SnippetCategory("JavaScript", Constants.SnippetTypes.CodeJavaScript));
             add(new SnippetCategory("Delphi", Constants.SnippetTypes.CodeDelphi));
