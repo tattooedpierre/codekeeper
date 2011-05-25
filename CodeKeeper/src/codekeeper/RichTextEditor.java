@@ -121,10 +121,10 @@ public class RichTextEditor extends javax.swing.JPanel {
 
     @Action
     public void SetBullet() {
-        richTextPane.setText(new StringBuffer(richTextPane.getText())
-                .insert(richTextPane.getSelectionEnd(), "     \u2022 ").toString());
+        richTextPane.setText(new StringBuffer(richTextPane.getText()).insert(richTextPane.getSelectionEnd(), "     \u2022 ").toString());
         btnGrpBulletStyle.setSelected(btnBullets.getModel(), Boolean.TRUE);
         orderedListCount = 1;
+
     }
 
     @Action
